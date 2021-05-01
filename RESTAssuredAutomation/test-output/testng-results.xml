@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6446" started-at="2021-05-01T15:25:46Z" finished-at="2021-05-01T15:25:53Z">
+  <suite name="Default suite" duration-ms="1370" started-at="2021-05-01T19:03:28Z" finished-at="2021-05-01T19:03:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6446" started-at="2021-05-01T15:25:46Z" finished-at="2021-05-01T15:25:53Z">
-      <class name="com.shoaib.tests.PutPatchDeleteExample">
-        <test-method status="PASS" signature="putExample()[pri:1, instance:com.shoaib.tests.PutPatchDeleteExample@28f67ac7]" name="putExample" duration-ms="3166" started-at="2021-05-01T20:55:46Z" finished-at="2021-05-01T20:55:50Z">
+    <test name="Default test" duration-ms="1370" started-at="2021-05-01T19:03:28Z" finished-at="2021-05-01T19:03:29Z">
+      <class name="com.shoaib.tests.TestOnLocalAPI">
+        <test-method status="PASS" signature="delete()[pri:0, instance:com.shoaib.tests.TestOnLocalAPI@16c0663d]" name="delete" duration-ms="1361" started-at="2021-05-02T00:33:28Z" finished-at="2021-05-02T00:33:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- putExample -->
-        <test-method status="PASS" signature="patchExample()[pri:2, instance:com.shoaib.tests.PutPatchDeleteExample@28f67ac7]" name="patchExample" duration-ms="1635" started-at="2021-05-01T20:55:50Z" finished-at="2021-05-01T20:55:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- patchExample -->
-        <test-method status="PASS" signature="deleteExample()[pri:3, instance:com.shoaib.tests.PutPatchDeleteExample@28f67ac7]" name="deleteExample" duration-ms="1635" started-at="2021-05-01T20:55:51Z" finished-at="2021-05-01T20:55:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteExample -->
-      </class> <!-- com.shoaib.tests.PutPatchDeleteExample -->
+        </test-method> <!-- delete -->
+      </class> <!-- com.shoaib.tests.TestOnLocalAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
